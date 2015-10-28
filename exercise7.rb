@@ -9,3 +9,5 @@ students[:cohort4] = 43
 students.each do |x, y|
   puts "#{x}: #{y} students"
 end
+
+puts students.keys
